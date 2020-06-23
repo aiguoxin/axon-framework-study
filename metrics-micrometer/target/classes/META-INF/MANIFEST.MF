@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.axonframework.micrometer
+Bnd-LastModified: 1592881023768
+Build-Jdk: 1.8.0_73
+Built-By: liuruixue
+Bundle-Description: This module contains components that provide metrics
+  for standard Axon components using the micrometer library.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: axon-micrometer
+Bundle-SymbolicName: org.axonframework.axon-micrometer
+Bundle-Version: 4.3.2.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.axonframework.micrometer;version="4.3.2.SNAPSHOT";us
+ es:="io.micrometer.core.instrument,org.axonframework.commandhandling,or
+ g.axonframework.config,org.axonframework.eventhandling,org.axonframewor
+ k.messaging,org.axonframework.monitoring,org.axonframework.queryhandlin
+ g",org.axonframework.micrometer.reservoir;version="4.3.2.SNAPSHOT";uses
+ :="io.micrometer.core.instrument"
+Implementation-Title: Axon Framework Micrometer Metrics
+Implementation-URL: http://www.axonframework.org/axon-micrometer
+Implementation-Vendor-Id: org.axonframework
+Implementation-Version: 4.3.2-SNAPSHOT
+Import-Package: org.slf4j;version="[1.7,2)",io.micrometer.core.instrumen
+ t;resolution:=optional,io.micrometer.core.instrument.simple;resolution:
+ =optional,org.axonframework.commandhandling;resolution:=optional;versio
+ n="[4.3,5)",org.axonframework.config;resolution:=optional;version="[4.3
+ ,5)",org.axonframework.eventhandling;resolution:=optional;version="[4.3
+ ,5)",org.axonframework.messaging;resolution:=optional;version="[4.3,5)"
+ ,org.axonframework.micrometer.reservoir;resolution:=optional;version="[
+ 4.3,5)",org.axonframework.monitoring;resolution:=optional;version="[4.3
+ ,5)",org.axonframework.queryhandling;resolution:=optional;version="[4.3
+ ,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.3.0.201609221906

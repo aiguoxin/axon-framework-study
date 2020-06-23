@@ -1,0 +1,8 @@
+/Volumes/work/qiyi/git/AxonFramework/metrics/src/test/java/org/axonframework/metrics/CapacityMonitorTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics/src/test/java/org/axonframework/metrics/MetricsConfigurerModuleTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics/src/test/java/org/axonframework/metrics/TestClock.java
+/Volumes/work/qiyi/git/AxonFramework/metrics/src/test/java/org/axonframework/metrics/GlobalMetricRegistryTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics/src/test/java/org/axonframework/metrics/PayloadTypeMessageMonitorWrapperTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics/src/test/java/org/axonframework/metrics/EventProcessorLatencyMonitorTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics/src/test/java/org/axonframework/metrics/MessageCountingMonitorTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics/src/test/java/org/axonframework/metrics/MessageTimerMonitorTest.java

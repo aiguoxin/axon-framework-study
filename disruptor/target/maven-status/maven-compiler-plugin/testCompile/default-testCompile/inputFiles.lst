@@ -1,0 +1,10 @@
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/DisruptorCommandBusTest_MultiThreaded.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/CommandHandlerInvokerTest.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/DisruptorCommandBusBuilderTest.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/DisruptorCommandBusBenchmark.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/CommandHandlingBenchmark.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/DisruptorRepositoryTest.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/utils/MockException.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/utils/SomethingDoneEvent.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/DisruptorCommandBusTest.java
+/Volumes/work/qiyi/git/AxonFramework/disruptor/src/test/java/org/axonframework/disruptor/commandhandling/FirstLevelCacheTest.java

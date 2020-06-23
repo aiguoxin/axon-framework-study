@@ -1,0 +1,12 @@
+org/axonframework/micrometer/GlobalMetricRegistry.class
+org/axonframework/micrometer/MessageCountingMonitor$1.class
+org/axonframework/micrometer/PayloadTypeMessageMonitorWrapper.class
+org/axonframework/micrometer/reservoir/SlidingTimeWindowReservoir.class
+org/axonframework/micrometer/CapacityMonitor.class
+org/axonframework/micrometer/EventProcessorLatencyMonitor$1.class
+org/axonframework/micrometer/EventProcessorLatencyMonitor.class
+org/axonframework/micrometer/MessageCountingMonitor.class
+org/axonframework/micrometer/MessageTimerMonitor.class
+org/axonframework/micrometer/CapacityMonitor$1.class
+org/axonframework/micrometer/MetricsConfigurerModule.class
+org/axonframework/micrometer/MessageTimerMonitor$1.class

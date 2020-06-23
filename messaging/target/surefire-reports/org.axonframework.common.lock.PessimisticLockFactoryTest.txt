@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.axonframework.common.lock.PessimisticLockFactoryTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.242 s - in org.axonframework.common.lock.PessimisticLockFactoryTest

@@ -1,0 +1,8 @@
+/Volumes/work/qiyi/git/AxonFramework/metrics-micrometer/src/test/java/org/axonframework/micrometer/CapacityMonitorTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics-micrometer/src/test/java/org/axonframework/micrometer/GlobalMetricRegistryTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics-micrometer/src/test/java/org/axonframework/micrometer/MessageCountingMonitorTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics-micrometer/src/test/java/org/axonframework/micrometer/MetricsConfigurerModuleTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics-micrometer/src/test/java/org/axonframework/micrometer/EventProcessorLatencyMonitorTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics-micrometer/src/test/java/org/axonframework/micrometer/PayloadTypeMessageMonitorWrapperTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics-micrometer/src/test/java/org/axonframework/micrometer/MessageTimerMonitorTest.java
+/Volumes/work/qiyi/git/AxonFramework/metrics-micrometer/src/test/java/org/axonframework/micrometer/reservoir/SlidingTimeWindowReservoirTest.java

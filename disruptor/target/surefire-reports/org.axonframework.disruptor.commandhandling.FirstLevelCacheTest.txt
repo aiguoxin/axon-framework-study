@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.axonframework.disruptor.commandhandling.FirstLevelCacheTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s - in org.axonframework.disruptor.commandhandling.FirstLevelCacheTest

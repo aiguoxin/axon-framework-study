@@ -1,0 +1,281 @@
+{
+  "groups": [
+    {
+      "name": "axon.axonserver",
+      "type": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration"
+    },
+    {
+      "name": "axon.axonserver.command-flow-control",
+      "type": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "sourceMethod": "getCommandFlowControl()"
+    },
+    {
+      "name": "axon.axonserver.default-flow-control-configuration",
+      "type": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "sourceMethod": "getDefaultFlowControlConfiguration()"
+    },
+    {
+      "name": "axon.axonserver.event-flow-control",
+      "type": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "sourceMethod": "getEventFlowControl()"
+    },
+    {
+      "name": "axon.axonserver.query-flow-control",
+      "type": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "sourceMethod": "getQueryFlowControl()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "axon.axonserver.cert-file",
+      "type": "java.lang.String",
+      "description": "Certificate file for SSL",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration"
+    },
+    {
+      "name": "axon.axonserver.client-id",
+      "type": "java.lang.String",
+      "description": "clientId as it registers itself to AxonServer, must be unique",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration"
+    },
+    {
+      "name": "axon.axonserver.command-flow-control.initial-nr-of-permits",
+      "type": "java.lang.Integer",
+      "description": "Initial number of permits send for message streams (events, commands, queries)",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration",
+      "defaultValue": 5000
+    },
+    {
+      "name": "axon.axonserver.command-flow-control.new-permits-threshold",
+      "type": "java.lang.Integer",
+      "description": "Threshold at which application sends new permits to server <p> A value of {@code null}, 0, and negative values will have the threshold set to 50% of \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration"
+    },
+    {
+      "name": "axon.axonserver.command-flow-control.nr-of-new-permits",
+      "type": "java.lang.Integer",
+      "description": "Additional number of permits send for message streams (events, commands, queries) when application is ready for more messages. <p> A value of {@code null}, 0, and negative values will have the client request the number of permits required to get from the \"new-permits-threshold\" to \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration"
+    },
+    {
+      "name": "axon.axonserver.command-load-factor",
+      "type": "java.lang.Integer",
+      "description": "It represents the fixed value of load factor sent to Axon Server for any command's subscription if no specific implementation of CommandLoadFactorProvider is configured. The default value is 100.",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 100
+    },
+    {
+      "name": "axon.axonserver.command-threads",
+      "type": "java.lang.Integer",
+      "description": "Number of threads executing commands",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 10
+    },
+    {
+      "name": "axon.axonserver.commit-timeout",
+      "type": "java.lang.Integer",
+      "description": "Timeout (in milliseconds) to wait for response on commit",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 10000
+    },
+    {
+      "name": "axon.axonserver.component-name",
+      "type": "java.lang.String",
+      "description": "application name, defaults to spring.application.name multiple instances of the same application share the same application name, but each must have a different clientId",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration"
+    },
+    {
+      "name": "axon.axonserver.connect-timeout",
+      "type": "java.lang.Long",
+      "description": "Represents the maximum time in milliseconds a request for the initial Axon Server connection may last. Defaults to 5000 (5 seconds).",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 5000
+    },
+    {
+      "name": "axon.axonserver.context",
+      "type": "java.lang.String",
+      "description": "Bounded context that this application operates in. Defaults to {@code \"default\"}.",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": "default"
+    },
+    {
+      "name": "axon.axonserver.default-flow-control-configuration.initial-nr-of-permits",
+      "type": "java.lang.Integer",
+      "description": "Initial number of permits send for message streams (events, commands, queries)",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration",
+      "defaultValue": 5000
+    },
+    {
+      "name": "axon.axonserver.default-flow-control-configuration.new-permits-threshold",
+      "type": "java.lang.Integer",
+      "description": "Threshold at which application sends new permits to server <p> A value of {@code null}, 0, and negative values will have the threshold set to 50% of \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration"
+    },
+    {
+      "name": "axon.axonserver.default-flow-control-configuration.nr-of-new-permits",
+      "type": "java.lang.Integer",
+      "description": "Additional number of permits send for message streams (events, commands, queries) when application is ready for more messages. <p> A value of {@code null}, 0, and negative values will have the client request the number of permits required to get from the \"new-permits-threshold\" to \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration"
+    },
+    {
+      "name": "axon.axonserver.disable-event-blacklisting",
+      "type": "java.lang.Boolean",
+      "description": "Flag that allows blacklisting of Event types to be disabled. Disabling this may have serious performance impact, as it requires all messages from AxonServer to be sent to clients, even if a Client is unable to process the message. <p> Default is to have blacklisting enabled",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "axon.axonserver.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether (automatic) configuration of the AxonServer Connector is enabled. When {@code false}, the connector will not be implicitly be configured. Defaults to {@code true}. <p> Note that this setting will only affect automatic configuration by Application Containers (such as Spring).",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": true
+    },
+    {
+      "name": "axon.axonserver.event-flow-control.initial-nr-of-permits",
+      "type": "java.lang.Integer",
+      "description": "Initial number of permits send for message streams (events, commands, queries)",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration",
+      "defaultValue": 5000
+    },
+    {
+      "name": "axon.axonserver.event-flow-control.new-permits-threshold",
+      "type": "java.lang.Integer",
+      "description": "Threshold at which application sends new permits to server <p> A value of {@code null}, 0, and negative values will have the threshold set to 50% of \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration"
+    },
+    {
+      "name": "axon.axonserver.event-flow-control.nr-of-new-permits",
+      "type": "java.lang.Integer",
+      "description": "Additional number of permits send for message streams (events, commands, queries) when application is ready for more messages. <p> A value of {@code null}, 0, and negative values will have the client request the number of permits required to get from the \"new-permits-threshold\" to \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration"
+    },
+    {
+      "name": "axon.axonserver.initial-nr-of-permits",
+      "type": "java.lang.Integer",
+      "description": "Initial number of permits send for message streams (events, commands, queries)",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 5000
+    },
+    {
+      "name": "axon.axonserver.keep-alive-time",
+      "type": "java.lang.Long",
+      "description": "Interval (in ms) for keep alive requests, 0 is keep-alive disabled. Defaults to {@code 1000}.",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 1000
+    },
+    {
+      "name": "axon.axonserver.keep-alive-timeout",
+      "type": "java.lang.Long",
+      "description": "Timeout (in ms) for keep alive requests",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 5000
+    },
+    {
+      "name": "axon.axonserver.max-grpc-buffered-messages",
+      "type": "java.lang.Integer",
+      "description": "The number of messages that may be in-transit on the network\/grpc level when streaming data from the server. Setting this to 0 (or a negative value) will disable buffering, and requires each message sent by the server to be acknowledged before the next message may be sent. Defaults to 500.",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 500
+    },
+    {
+      "name": "axon.axonserver.max-message-size",
+      "type": "java.lang.Integer",
+      "description": "GRPC max inbound message size, 0 keeps default value",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 0
+    },
+    {
+      "name": "axon.axonserver.new-permits-threshold",
+      "type": "java.lang.Integer",
+      "description": "Threshold at which application sends new permits to server <p> A value of {@code null}, 0, and negative values will have the threshold set to 50% of \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration"
+    },
+    {
+      "name": "axon.axonserver.nr-of-new-permits",
+      "type": "java.lang.Integer",
+      "description": "Additional number of permits send for message streams (events, commands, queries) when application is ready for more messages. <p> A value of {@code null}, 0, and negative values will have the client request the number of permits required to get from the \"new-permits-threshold\" to \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration"
+    },
+    {
+      "name": "axon.axonserver.processors-notification-initial-delay",
+      "type": "java.lang.Integer",
+      "description": "Initial delay (in ms.) before application sends first status update on event processors to AxonServer",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 5000
+    },
+    {
+      "name": "axon.axonserver.processors-notification-rate",
+      "type": "java.lang.Integer",
+      "description": "Interval (in ms.) application sends status updates on event processors to AxonServer",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 500
+    },
+    {
+      "name": "axon.axonserver.query-flow-control.initial-nr-of-permits",
+      "type": "java.lang.Integer",
+      "description": "Initial number of permits send for message streams (events, commands, queries)",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration",
+      "defaultValue": 5000
+    },
+    {
+      "name": "axon.axonserver.query-flow-control.new-permits-threshold",
+      "type": "java.lang.Integer",
+      "description": "Threshold at which application sends new permits to server <p> A value of {@code null}, 0, and negative values will have the threshold set to 50% of \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration"
+    },
+    {
+      "name": "axon.axonserver.query-flow-control.nr-of-new-permits",
+      "type": "java.lang.Integer",
+      "description": "Additional number of permits send for message streams (events, commands, queries) when application is ready for more messages. <p> A value of {@code null}, 0, and negative values will have the client request the number of permits required to get from the \"new-permits-threshold\" to \"initial-nr-of-permits\".",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration$FlowControlConfiguration"
+    },
+    {
+      "name": "axon.axonserver.query-threads",
+      "type": "java.lang.Integer",
+      "description": "Number of threads executing queries",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 10
+    },
+    {
+      "name": "axon.axonserver.servers",
+      "type": "java.lang.String",
+      "description": "Comma separated list of AxonServer servers. Each element is hostname or hostname:grpcPort. When no grpcPort is specified, default port 8123 is used.",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "axon.axonserver.snapshot-prefetch",
+      "type": "java.lang.Integer",
+      "description": "An {@code int} indicating the maximum number of Aggregate snapshots which will be retrieved. Defaults to {@code 1}.",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": 1
+    },
+    {
+      "name": "axon.axonserver.ssl-enabled",
+      "type": "java.lang.Boolean",
+      "description": "Use TLS for connection to AxonServer",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "axon.axonserver.suppress-download-message",
+      "type": "java.lang.Boolean",
+      "description": "Indicates whether the download advice message should be suppressed, even when default connection properties (which are generally only used in DEV mode) are used. Defaults to false.",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "axon.axonserver.token",
+      "type": "java.lang.String",
+      "description": "Token for access control",
+      "sourceType": "org.axonframework.axonserver.connector.AxonServerConfiguration"
+    }
+  ],
+  "hints": []
+}

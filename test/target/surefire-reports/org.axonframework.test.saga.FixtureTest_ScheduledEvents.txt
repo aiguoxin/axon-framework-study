@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.axonframework.test.saga.FixtureTest_ScheduledEvents
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.axonframework.test.saga.FixtureTest_ScheduledEvents

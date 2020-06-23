@@ -1,0 +1,15 @@
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/ConfigurationScopeAwareProviderTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/SagaConfigurerTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/ConfigurationParameterResolverFactoryTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/utils/AssertUtils.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/SingleEventProcessorAssigningToMultipleInvokersTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/ConfigurationResourceInjectorTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/DefaultConfigurerTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/EventProcessingModuleTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/MessageCollectingMonitor.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/MessageHandlerRegistrarTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/DefaultConfigurerLifecycleOperationsTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/LifecycleHandlerInspectorTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/AggregateConfigurerTest.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/ConfigAssertions.java
+/Volumes/work/qiyi/git/AxonFramework/config/src/test/java/org/axonframework/config/MessageMonitorFactoryBuilderTest.java

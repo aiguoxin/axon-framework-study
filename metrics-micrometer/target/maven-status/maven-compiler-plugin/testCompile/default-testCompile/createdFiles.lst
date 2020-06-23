@@ -1,0 +1,11 @@
+org/axonframework/micrometer/GlobalMetricRegistryTest$2.class
+org/axonframework/micrometer/MetricsConfigurerModuleTest.class
+org/axonframework/micrometer/PayloadTypeMessageMonitorWrapperTest.class
+org/axonframework/micrometer/CapacityMonitorTest.class
+org/axonframework/micrometer/reservoir/SlidingTimeWindowReservoirTest.class
+org/axonframework/micrometer/EventProcessorLatencyMonitorTest.class
+org/axonframework/micrometer/CapacityMonitorTest$1.class
+org/axonframework/micrometer/MessageTimerMonitorTest.class
+org/axonframework/micrometer/GlobalMetricRegistryTest$1.class
+org/axonframework/micrometer/MessageCountingMonitorTest.class
+org/axonframework/micrometer/GlobalMetricRegistryTest.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.axonframework.springboot.AxonAutoConfigurationWithTagsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.361 s - in org.axonframework.springboot.AxonAutoConfigurationWithTagsTest
