@@ -181,7 +181,7 @@
         <el-impl.version>2.2</el-impl.version>
         <eaio-uuid.version>3.2</eaio-uuid.version>
         <dom4j.version>2.1.1</dom4j.version>
-        <postgresql.version>42.2.8</postgresql.version>
+        <postgresql.version>42.3.3</postgresql.version>
         <junit4.version>4.12</junit4.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
 
